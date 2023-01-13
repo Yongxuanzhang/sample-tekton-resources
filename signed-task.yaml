@@ -2,7 +2,7 @@ apiVersion: tekton.dev/v1beta1
 kind: Task
 metadata:
   annotations:
-    tekton.dev/signature: MEUCIQDqzyuTEcdHUrV1+EGZVNaPpHP1s8JQR/MksDkq6t9LvgIgbyat4EJvHdtE9XuIlMBsMGur0C4UNTJCDAv99tCU8fk=
+    tekton.dev/signature: MEUCIQCk+j/Z4wpYuEEwav91hvEI8cWwf1AOWM9YnOamQaJ48QIgPNyjCN5AZh70kJU8tSReJy7kL+/f3VeN1UuPntv44F8=
   creationTimestamp: null
   name: example-task
   namespace: trusted-resources
