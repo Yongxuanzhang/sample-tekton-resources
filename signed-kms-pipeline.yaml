@@ -1,0 +1,13 @@
+apiVersion: tekton.dev/v1beta1
+kind: Pipeline
+metadata:
+  annotations:
+    tekton.dev/signature: MEUCIQD6VcCp/b1rKGd6g2sFwDdzNt2hB+FH4lWRlpx4B1xVZQIgcjx3G1BZcCfZs1eBLImNlvpsUPeRR/jHhnjYrj6UoP0=
+  creationTimestamp: null
+  name: example-pipeline
+  namespace: trusted-resources
+spec:
+  tasks:
+  - name: example-task
+    taskRef:
+      name: example-task-kms
