@@ -1,0 +1,17 @@
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  annotations:
+    tekton.dev/signature: MEUCIE/XJ0JvrRhyD4eGj4WDMZyVxU0XlF3Uz0JGWniBNbYnAiEA2BMqpHqgLwG1nYtGkvMTiv/ti26f61EG2mMKpe9KD+E=
+  creationTimestamp: null
+  name: example-task
+  namespace: trusted-resources
+spec:
+  steps:
+  - args:
+    - Hello World
+    command:
+    - echo
+    image: ubuntu
+    name: echo
+    resources: {}
